@@ -1,0 +1,87 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+*{
+	font-family: sans-serif;
+	font-size: 15px;
+}
+
+/* menus */
+.logo{
+	padding: 10px;
+	color: #2a3f56;
+	font-weight: bold;
+}
+.menu{
+	display: grid;
+	grid-template-columns: 70% 30%;
+	background: #f7faff;
+}
+
+.menu-lateral{
+	background: #2a3f56;
+	height: 100vh;
+}
+.c-itens{
+	margin: 10px;
+}
+.nav-item{
+	margin-top: 10px;
+}
+.nav-item:hover > a{
+	color: #f9d266;
+}
+.itens{
+	font-size: 16px;
+	text-decoration: none;
+	color: #b7c0cd;
+}
+.activo{
+	font-size: 16px;
+	text-decoration: none;
+	color: #f9d266;
+}
+/* cuerpo */
+.cuerpo {
+	margin: 0px;
+	padding: 0px;
+	height:auto;
+	width: 100%;
+	background: white;
+	position: relative;
+}
+.main-grid{
+	display:grid;
+	grid-template-columns: 10% 90%;
+}
+.c-encabezado{
+	margin: 20px;
+}
+.titulo-tabla{
+	width: 100%;
+	color: var(--color-black);
+	font-weight: bold;
+	text-align: center;
+}
+/* tabla */
+
+.table{
+	padding-top: 10px;
+}
+
+.icon-table{
+	color: --info;
+}
+.btn-iconos {
+	cursor: pointer;
+}
+.img_productos{
+	width: 50px;
+	height: 50px;
+}
+/* paginacion */
+
+.paginate_button{
+	background: var(--info);
+}
